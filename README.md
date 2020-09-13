@@ -7,5 +7,5 @@ click on the add to cart button to check your purchases and delivery fee
 # Technologies used 
 HTML,CSS,BOOSTRAP,JAVASCRIPT
 # CONTACT INFORMATION
-ochiengb215@gmail.com-gmail,@brian215-twitter
+ochiengb215@gmail.com,@brian215-twitter
 
