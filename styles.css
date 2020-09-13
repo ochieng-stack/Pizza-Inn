@@ -209,19 +209,6 @@ body{
     color:#db4a39;
 }
 /*======end of social icons========*/
-/*======cart section===========*/
-.table{
-    font-size: 20px;
-    margin: 2rem;
-}
-.btn-purchase{
-    font-size: 20px;
-    background-color: #3b5998;
-    margin-left:20px;
-}
-.order{
-    margin-left:650px;
-    font-size:50px;
-}
+/*======cart section=========*/
 
 /*=======end of cart section======*/

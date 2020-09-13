@@ -9,6 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="store.js"></script>
     <title>PIZZA INN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <!--Navbar=======-->
@@ -92,44 +94,182 @@
     <!----End of social icon========-->
     <!---cart section============-->
     <section>
-    <h2 class="order" >ORDER NOW</h2>
-    <div class="image">
-        <img src="images/pizza6.jpeg">
-        <h1>Meat pizza</h1>
-    </div> 
-    <table class="table">
-        <tr>
-            <td>
-                SIZE :
-            </td>
-            <td>
-                <input type="radio" name="size">Large
-                <input type="radio" name="size">Medium
-                <input type="radio" name="size">Small
-            </td>
-        </tr>
-            <td>
-                CRUST:
-            </td>
-            <td>
-                <input type="radio" name="crust">crispy
-                <input type="radio" name="crust">stuffed
-                <input type="radio" name="crust">glutten free
-            </td>
-        </tr>
-            <td>
-                TOPPINGS:
-            </td>
-            <td>
-                <input type="radio">PEPORONI
-                <input type="radio">SAUSAGE
-                <input type="radio">MUSHROOM
-            </td>
-            </tr>
-    </table>
-    <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
-    
+    <div class="container">
+        <div class="row text-center py-5">
+            <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                <div class="card shadow">
+                    <div>
+                        <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title">meat pizza</h1>
+                        <p class="card-text">
+                            large,crispy with pepperoni
+                        </p>
+                        <h2>
+                            <small><s>$50</s></small>
+                            <span class="price">$45</span>
+                            <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                <div class="card shadow">
+                    <div>
+                        <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title">meat pizza</h1>
+                        <p class="card-text">
+                            medium,crispy with pepperoni
+                        </p>
+                        <h2>
+                            <small><s>$30</s></small>
+                            <span class="price">$25</span>
+                            <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                        </h2>
+                    </div>
+                </div>     
+         </div>
+        <div class="col-md-3 col-sm-6 my-3 my-md-0">
+            <div class="card shadow">
+                <div>
+                    <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title">meat pizza</h1>
+                    <p class="card-text">
+                        small,crispy with pepperoni
+                    </p>
+                    <h2>
+                        <small><s>$20</s></small>
+                        <span class="price">$10</span>
+                        <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                     </h2>
+               </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6 my-3 my-md-0">
+        <div class="card shadow">
+            <div>
+                <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">meat pizza</h1>
+                <p class="card-text">
+                    large,stuffed with pepperoni
+                </p>
+                <h2>
+                    <small><s>$75</s></small>
+                    <span class="price">$70</span>
+                    <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                 </h2>
+           </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-6 my-3 my-md-0">
+        <div class="card shadow">
+            <div>
+                <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">meat pizza</h1>
+                <p class="card-text">
+                    medium,stuffed with pepperoni
+                </p>
+                <h2>
+                    <small><s>$65</s></small>
+                    <span class="price">$60</span>
+                    <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                 </h2>
+           </div>
+    </div>
+    </div>
+    <div class="col-md-3 col-sm-6 my-3 my-md-o">
+        <div class="card shadow">
+            <div>
+                <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">meat pizza</h1>
+                <p class="card-text">
+                    small,stuffed with pepperoni
+                </p>
+                <h2>
+                    <small><s>$40</s></small>
+                    <span class="price">$35</span>
+                    <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                </h2>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-3 col-sm-6 my-3 my-md-o">
+        <div class="card shadow">
+            <div>
+                <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">meat pizza</h1>
+                <p class="card-text">
+                    large,gluton free with pepperoni
+                </p>
+                <h2>
+                    <small><s>$40</s></small>
+                    <span class="price">$40</span>
+                    <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6 my-3 my-md-o">
+        <div class="card shadow">
+            <div>
+                <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">meat pizza</h1>
+                <p class="card-text">
+                    medium,gluton free with pepperoni
+                </p>
+                <h2>
+                    <small><s>$35</s></small>
+                    <span class="price">$30</span>
+                    <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-6 my-3 my-md-o">
+        <div class="card shadow">
+            <div>
+                <img src="images/pizza6.jpeg" alt="image" class="img-fluid card-img-top">
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">meat pizza</h1>
+                <p class="card-text">
+                    small,gluton free with pepperoni
+                </p>
+                <h2>
+                    <small><s>$40</s></small>
+                    <span class="price">$35</span>
+                    <button type="submit" name="add" class="btn btn-warning my-3">ADD TO CART<i class="fas fa-shopping-cart"></i></button>
+                </h2>
+            </div>
+        </div>
+    </div>
+ 
     </section>
     <!---end of cart section=========-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 </html>
